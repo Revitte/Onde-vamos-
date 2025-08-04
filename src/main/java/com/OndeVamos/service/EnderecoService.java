@@ -5,13 +5,13 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
 @Service
-public class ServiceViaCEP {
+public class EnderecoService {
 
     private static final String VIACEP_URL = "http://viacep.com.br/ws/{cep}/json/";
 
     private final RestTemplate restTemplate;
 
-    public ServiceViaCEP(RestTemplate restTemplate) {
+    public EnderecoService(RestTemplate restTemplate) {
         this.restTemplate = restTemplate;
     }
 
