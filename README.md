@@ -18,16 +18,13 @@ Desenho de Solução:
     - Spring Web
     - Spring Data JPA
     - Postgres SQL (Container)
-    - WireMock (Container)
     - Docker
     - Lombok
   
   Descrição: 
-    A aplicação se chama "Onde Vamos", ela ultiliza uma API externa chamada ViaCEP
-    para buscar o cep e retornar as informacoes de localização do endereço relacionado,
+    A aplicação que se chama "Onde Vamos" é uma API que faz requicições com CEP 
+    para buscar e retornar as informações de localização do endereço relacionado,
     após isso é feito o armazenamento no banco de dados Postgres.
-    A aplicacção também constitui uma requicição UPDATE para alterações das buscas 
-    e uma requicição GET para trazer todos os dados salvos no banco.
 
 
   
