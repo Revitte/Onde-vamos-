@@ -1,0 +1,13 @@
+package com.OndeVamos.controllerTest;
+
+import com.OndeVamos.model.Endereco;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
+import org.springframework.test.web.servlet.MockMvc;
+
+@WebMvcTest(Endereco.class)
+public class EnderecoControllerTest {
+
+    @Autowired
+    private MockMvc mockMvc;
+}
